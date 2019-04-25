@@ -7,13 +7,14 @@ ever forgotten how to do it when asked the following week?
 
 ---
 
-1. minified code to reduce render latency (#TODO)
-2. dynamically set repl.it iframe src attributes to prefilled CSX coding challenges 
+1. minified code to reduce render latency
+<!-- benchmark graph -->
+2. dynamically set repl.it iframe src attributes to prefilled CSX coding challenges
 3. provided links to relevant MDN documentation for said challenge
 
 <!-- # README Boilerplate
 
-A template of README best practices to make your README simple to understand and easy to use. 
+A template of README best practices to make your README simple to understand and easy to use.
 
 ## Table of Contents
 
