@@ -1,0 +1,21 @@
+{
+  "name": "more tabs, more problem$",
+  "version": "1.0",
+  "description": "opening a new tab will display a new coding challenge",
+  "permissions": [
+    "http://*/",
+    "https://*/",
+    "activeTab",
+    "declarativeContent"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "pages/index.html"
+  },
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "manifest_version": 2
+}
