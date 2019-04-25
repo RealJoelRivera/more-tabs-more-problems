@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -35,9 +35,28 @@
     <!-- repl container -->
     <section class="column" id="challenge-repl"></section>
 
-    <section class="column" id="resource-section">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.ajax({url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch", success: function(result){
+      $("#resource-section").html(result);
+    }});
+    // console.log(result)
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+<button>Get External Content</button>
+
+    <section class="column" id="resource-section" style="width: 600px">
       <li class="resource-list-item">
-        <a href="#">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">
           MDN on <code>const</code></li>
       </a>
       </li>
